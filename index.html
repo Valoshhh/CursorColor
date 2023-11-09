@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color cursor</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/script.js" defer></script>
+</head>
+<body>
+
+    <div class="color-slider">
+
+        <h1>Choisis ta couleur de fond</h1>
+
+        <div class="colorDisplay"></div>
+
+        <button id="copyButton">Copier la couleur</button>
+
+
+        <label class="slider-label" for="redRange">Red: <span id="redValue" class="color-value">0</span></label>
+        <input type="range" id="redRange" min="0" max="255"  class="slider">
+
+        <label class="slider-label" for="greenRange">Green: <span id="greenValue" class="color-value">0</span></label>
+        <input type="range" id="greenRange" min="0" max="255"  class="slider">
+
+        <label class="slider-label" for="blueRange">Blue: <span id="blueValue" class="color-value">0</span></label>
+        <input type="range" id="blueRange" min="0" max="255"  class="slider">
+        
+        <label class="slider-label" for="shadowRange">Shadow:<span id="shadowValue" class="shadow-value">0</span></label>
+        <input type="range" id="shadowRange" min="0" max="100"  class="slider">
+
+
+        <div class="box"></div>
+
+    </div>
+
+</body>
+</html>
